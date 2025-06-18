@@ -1,0 +1,69 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Exemplo de formulário básico</h1>
+    <form action="">
+
+        <label for="nome">Nome</label><br>
+        <input type="text" id="nome" name="nome" required placeholder="Ex:Péricles">
+        <br>
+
+        <label for="sobrenome">Sobrenome</label><br>
+        <input type="text" id="sobrenome" name="sobrenome">
+        <br>
+
+        <p>Tecnologias</p>
+        <input type="radio" id="css" name="tecnologia" value="1">
+        <label for="css">CSS</label>
+        <input type="radio" id="html" name="tecnologia" value="2">
+        <label for="html">HTML</label>
+        <input type="radio" id="javascript" name="tecnologia" value="3">
+        <label for="javascript">Javascript</label>
+
+        <br><br>
+        <label>Escolha um dia da semana:</label><br><br>
+        <input type="checkbox" id="segunda" name="segunda" value="segunda">
+        <label for="segunda">Segunda-feira</label>
+
+        <input type="checkbox" id="terça" name="terça" value="terça">
+        <label for="terça">Terça-feira</label>
+
+        <input type="checkbox" id="quarta" name="quarta" value="quarta">
+        <label for="quarta">Quarta-feira</label>
+
+        <input type="checkbox" id="quinta" name="quinta" value="quinta">
+        <label for="quinta">Quinta-feira</label>
+
+        <input type="checkbox" id="sexta" name="seta" value="sexta">
+        <label for="sexta">Sexta-feira</label>
+
+        <br><br>
+        <label for="comentario">Deixe seu comentário:</label><br>
+        <textarea name="comentario" id="comentario" cols="30" rows="5"
+            placeholder="Digite aqui o comentário a ser enviado para o sistema..."></textarea>
+        <br><br>
+
+        <label for="tema">Selecione o tema do TCC</label>
+        <select name="tema" id="tema">
+            <option value="TEC">Tencologia</option>
+            <option value="DLY">Delivery</option>
+            <option value="AGR">Agronegócio</option>
+
+        </select>
+
+        <br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar Campos">
+
+
+    </form>
+
+</body>
+
+</html>
